@@ -3,6 +3,7 @@
 Tugas 1 untuk memenuhi mata kuliah pilihan Pemrograman Web Lanjut.
 
 **Nama:** Ayu Liza Putri Wiwaha
+
 **NIM:** F1D02310003
 
 Program sederhana yang menampilkan identitas mahasiswa di terminal dengan tema warna matcha latte. Package yang dipakai:
@@ -31,6 +32,10 @@ npm start
 ```
 
 Dengan input sendiri, format `"Nama - NIM" "YYYY-MM-DD"`:
+
+```
+node index.js "Nama Lengkap - NIM" "YYYY-MM-DD"
+```
 
 Tanggal lahir bersifat opsional. Kalau format tanggal salah, program tetap berjalan dan menampilkan keterangan format yang benar.
 
